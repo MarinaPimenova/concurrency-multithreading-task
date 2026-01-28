@@ -61,7 +61,7 @@ public class DeadlockFreeExample {
                 try {
                     Thread.sleep(500); // print every 0.5 sec
                 } catch (InterruptedException e) {
-                    e.printStackTrace();
+                    System.out.println("Interrupted");
                 }
             }
         });
